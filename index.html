@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="h-screen bg-sky-600 flex justify-center items-center">
+      <div class="w-[70%] bg-white p-14 rounded-2xl">
+        <div class="">
+          <div class="flex justify-between mb-2">
+            <h2 class="text-[30px] font-bold text-sky-500 mb-[20px]">
+              Player One
+            </h2>
+            <h2 class="text-[30px] font-bold text-sky-500 mb-[20px]">
+              Please Input (1-9)
+            </h2>
+          </div>
+          <div class="">
+            <div class="flex gap-8">
+              <input
+                type="text"
+                placeholder="Enter Your Number"
+                class="border-2 rounded-lg border-sky-500 outline-none px-3 py-2 w-full text-[18px] text-sky-700 font-semibold"
+              />
+              <button
+                class="px-7 text-[18px] rounded-[5px] font-semibold bg-sky-500 text-white"
+                id="button"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </h1>
+    <script src="app.js"></script>
+  </body>
+</html>
